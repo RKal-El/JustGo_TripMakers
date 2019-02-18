@@ -9,14 +9,10 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
-
-import com.google.firebase.auth.FirebaseAuth;
 
 
 public class Utilities extends AppCompatActivity {
 
-    private FirebaseAuth mAuth;
     private android.support.v7.widget.Toolbar mToolbar;
 
     private ViewPager mViewPager;
@@ -29,7 +25,6 @@ public class Utilities extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_utilities);
 
-        mAuth = FirebaseAuth.getInstance();
 
         android.support.v7.widget.Toolbar toolbar = (Toolbar) findViewById(R.id.profile_toolbar);
         setSupportActionBar(toolbar);
