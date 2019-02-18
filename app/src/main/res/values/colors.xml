@@ -7,6 +7,6 @@
     <color name="mainText">#000</color>
     <color name="textButten">#000</color>
     <color name="textHint">#162A3D</color>
-    <color name="backgroundButton">#EBEBEB</color>
+    <color name="backgroundButton">#111E6E</color>
     <color name="backgroundText">#14477A</color>
 </resources>

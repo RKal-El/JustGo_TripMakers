@@ -26,7 +26,8 @@
         android:hint="England"
         android:inputType="textPersonName"
         android:textColor="@color/Toolbar"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:backgroundTint="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/City_view"
@@ -46,7 +47,8 @@
         android:hint="London"
         android:inputType="textPersonName"
         android:textColor="@color/Toolbar"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:backgroundTint="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/From_view"
@@ -66,7 +68,8 @@
         android:hint="mm/dd/yyyy"
         android:inputType="date"
         android:textColor="@color/Toolbar"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:backgroundTint="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/To_view"
@@ -86,7 +89,8 @@
         android:hint="mm/dd/yyyy"
         android:inputType="date"
         android:textColor="@color/Toolbar"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:backgroundTint="@color/colorPrimaryDark"/>
 
     <Button
         android:id="@+id/Save_trip"
@@ -95,5 +99,7 @@
         android:layout_margin="5sp"
         android:text="Save"
         android:textAllCaps="false"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:backgroundTint="@color/backgroundButton"/>
 </LinearLayout>

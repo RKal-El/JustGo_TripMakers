@@ -58,8 +58,8 @@
             android:gravity="center"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:textColor="@color/mainText"
-            android:textColorHint="@color/textHint" />
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/mainText" />
 
         <EditText
             android:id="@+id/password"
@@ -70,9 +70,9 @@
             android:gravity="center"
             android:hint="@string/password"
             android:importantForAutofill="no"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:inputType="textPassword"
-            android:textColor="@color/mainText"
-            android:textColorHint="@color/textHint" />
+            android:textColor="@color/mainText" />
 
     </LinearLayout>
 
@@ -92,7 +92,7 @@
             android:layout_margin="5sp"
             android:backgroundTint="@color/backgroundButton"
             android:text="@string/login"
-            android:textColor="@color/textButten"
+            android:textColor="@color/colorAccent"
             android:textAllCaps="false" />
 
         <Button
@@ -102,7 +102,7 @@
             android:layout_margin="5sp"
             android:backgroundTint="@color/backgroundButton"
             android:text="@string/sign_up"
-            android:textColor="@color/textButten"
+            android:textColor="@color/colorAccent"
             android:textAllCaps="false" />
 
         <Button
@@ -112,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5sp"
             android:text="@string/forgot_password"
-            android:textColor="@color/textButten"
+            android:textColor="@color/backgroundButton"
             android:textAllCaps="false" />
     </LinearLayout>
 

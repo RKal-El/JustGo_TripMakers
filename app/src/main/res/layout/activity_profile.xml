@@ -68,6 +68,7 @@
                     android:gravity="center"
                     android:hint="@string/user_name"
                     android:textSize="20sp"
+                    android:backgroundTint="@color/colorPrimaryDark"
                     android:inputType="textPersonName" />
 
                 <EditText
@@ -79,6 +80,7 @@
                     android:ems="10"
                     android:hint="@string/user_surname"
                     android:textSize="20sp"
+                    android:backgroundTint="@color/colorPrimaryDark"
                     android:inputType="textPersonName" />
 
                 <EditText
@@ -90,6 +92,7 @@
                     android:gravity="center"
                     android:hint="@string/user_country"
                     android:textSize="20sp"
+                    android:backgroundTint="@color/colorPrimaryDark"
                     android:inputType="text" />
 
                 <EditText
@@ -101,6 +104,7 @@
                     android:gravity="center"
                     android:hint="@string/email"
                     android:textSize="20sp"
+                    android:backgroundTint="@color/colorPrimaryDark"
                     android:inputType="textEmailAddress" />
 
             </LinearLayout>
@@ -132,7 +136,7 @@
                 android:backgroundTint="@color/backgroundButton"
                 android:text="@string/change_your_data"
                 android:textAllCaps="false"
-                android:textColor="@color/textButten" />
+                android:textColor="@color/colorAccent" />
 
         </LinearLayout>
 
@@ -155,7 +159,7 @@
             android:backgroundTint="@color/backgroundButton"
             android:text="@string/logout"
             android:textAllCaps="false"
-            android:textColor="@color/textButten" />
+            android:textColor="@color/colorAccent" />
 
         <Button
             android:id="@+id/btn_deactive"
@@ -165,7 +169,7 @@
             android:backgroundTint="@color/backgroundButton"
             android:text="@string/deactive_account"
             android:textAllCaps="false"
-            android:textColor="@color/textButten"
+            android:textColor="@color/colorAccent"
             android:textColorLink="@color/backgroundText" />
     </LinearLayout>
 
